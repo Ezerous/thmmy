@@ -1,2 +1,2 @@
 exports.login = require('./lib/auth').login;
-exports.fetchUnreadPosts = require('./lib/unread').fetchUnreadPosts;
+exports.getUnreadPosts = require('./lib/unread').getUnreadPosts;
