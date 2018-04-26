@@ -1,2 +1,11 @@
-.idea
+# Test
+test/
+
+# Git
 .gitattributes
+
+# Yarn
+yarn.lock
+
+# Jetbrains
+.idea
