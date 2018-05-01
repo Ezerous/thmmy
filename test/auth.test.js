@@ -1,5 +1,5 @@
 const login = require('./../lib/auth').login;
-const getCredentials = require('./utils').getCredentials;
+const getCredentials = require('./misc/test.utils').getCredentials;
 
 const credentials = getCredentials();
 
