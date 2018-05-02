@@ -2,5 +2,11 @@
 /node_modules
 package-lock.json
 
+# Yarn
+yarn.lock
+
 # Jetbrains
 .idea
+
+# Jest
+/coverage

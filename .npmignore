@@ -1,2 +1,15 @@
-.idea
+# Jest
+test
+coverage
+
+# Git
 .gitattributes
+
+# Yarn
+yarn.lock
+
+# Jetbrains
+.idea
+
+# Travis
+.travis.yml
