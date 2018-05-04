@@ -7,7 +7,7 @@ const credentials = getCredentials();
 //Skip - it doesn't work...
 it.skip('retrieves all of user\'s unread posts', async () => {
     expect.assertions(2);
-    const loginResult = await login(credentials.username, credentials.password);
-    const unreadPosts = await getUnreadPosts(loginResult);
+    const cookieJar = await login(credentials.username, credentials.password);
+    const unreadPosts = await getUnreadPosts(cookieJar);
     expect(unreadPosts).toBeTruthy();
 });

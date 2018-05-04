@@ -10,6 +10,6 @@ it('non default credentials found in config file or in the environment', async (
 
 it('provided valid credentials, login is successful', async () => {
     expect.assertions(1);
-    const loginResult = await login(credentials.username, credentials.password);
-    expect(JSON.stringify(loginResult)).toEqual(expect.stringContaining("THMMYgrC00ki3"));
+    const cookieJar = await login(credentials.username, credentials.password);
+    expect(JSON.stringify(cookieJar)).toEqual(expect.stringContaining("THMMYgrC00ki3"));
 });
