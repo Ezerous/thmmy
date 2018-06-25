@@ -17,10 +17,10 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "moment": "^2.22.1",
-    "moment-timezone": "^0.5.16",
-    "request": "^2.85.0",
-    "request-promise": "^4.2.2"
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.20",
+    "request": "^2.87.0",
+    "request-promise-native":"^1.0.5"
   },
   "devDependencies": {
     "jest": "^22.4.3"
@@ -28,6 +28,7 @@
   "jest": {
     "setupFiles": [
       "./test/misc/test.setup.js"
-    ]
+    ],
+    "setupTestFrameworkScriptFile": "./test/misc/test.frameworkSetup.js"
   }
 }
