@@ -1,6 +1,7 @@
 const login = require('./../lib/auth').login;
 const getCredentials = require('./misc/test.utils').getCredentials;
 const getUnreadPosts = require('./../lib/unread').getUnreadPosts;
+const getTopicBoards = require('./../lib/topic').getTopicBoards;
 
 const credentials = getCredentials();
 let cookieJar;
@@ -23,5 +24,14 @@ describe('unread', () => {
         expect.assertions(1);
         const unreadPosts = await getUnreadPosts(cookieJar);
         expect(unreadPosts).toBeTruthy();
+    });
+});
+
+
+describe('topic', () => {
+    it('boards are retrieved successfully', async () => {
+        expect.assertions(1);
+        const topicBoards = await getTopicBoards(9609, cookieJar);
+        expect(topicBoards.length).toBe(3);
     });
 });
