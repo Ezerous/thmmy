@@ -1,6 +1,6 @@
 {
   "name": "thmmy",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Utilities for thmmy.gr",
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "setupFiles": [
       "./test/misc/test.setup.js"
     ],
-    "setupFilesAfterEnv": ["./test/misc/test.frameworkSetup.js"]
+    "setupFilesAfterEnv": [
+      "./test/misc/test.frameworkSetup.js"
+    ]
   }
 }
