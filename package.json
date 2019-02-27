@@ -1,6 +1,6 @@
 {
   "name": "thmmy",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Utilities for thmmy.gr",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "author": "Ezerous <ezerous@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "main": "index.js",
   "scripts": {
