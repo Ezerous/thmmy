@@ -13,3 +13,6 @@ yarn.lock
 
 # Travis
 .travis.yml
+
+# npm
+*.tgz
