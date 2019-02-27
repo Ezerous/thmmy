@@ -21,9 +21,11 @@ describe('auth', () => {
 
 describe('unread', () => {
     it('posts are retrieved successfully', async () => {
-        expect.assertions(1);
-        const unreadPosts = await getUnreadPosts(cookieJar);
+        expect.assertions(2);
+        const unreadLimit = 35;
+        const unreadPosts = await getUnreadPosts(cookieJar, {unreadLimit: unreadLimit});
         expect(unreadPosts).toBeTruthy();
+        expect(unreadPosts.length).toBeLessThanOrEqual(unreadLimit);
     });
 });
 
