@@ -1,6 +1,8 @@
-exports.login = require('./lib/auth').login;
-exports.getSesc = require('./lib/auth').getSesc;
-exports.getUnreadPosts = require('./lib/unread').getUnreadPosts;
-exports.getRecentPosts = require('./lib/recent').getRecentPosts;
-exports.getTopicBoards = require('./lib/topic').getTopicBoards;
-exports.markTopicAsUnread = require('./lib/topic').markTopicAsUnread;
+import {login} from './lib/auth.js';
+import {getSesc} from './lib/auth.js';
+import {getUnreadPosts} from './lib/unread.js';
+import {getRecentPosts} from './lib/recent.js';
+import {getTopicBoards} from './lib/topic.js';
+import {markTopicAsUnread} from './lib/topic.js';
+
+export {login, getSesc, getUnreadPosts, getRecentPosts, getTopicBoards, markTopicAsUnread}

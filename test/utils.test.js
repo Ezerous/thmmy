@@ -1,5 +1,5 @@
-const moment = require('moment-timezone');
-const forumTimeToUnix = require('./../lib/utils').forumTimeToUnix;
+import moment from "moment-timezone";
+import { forumTimeToUnix } from "../lib/utils.js";
 
 function generateDescription(forumTime, momentTime){
     return `converts "${forumTime}" to ${momentTime.toString()}`;
