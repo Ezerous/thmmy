@@ -1,5 +1,5 @@
-const getRecentPosts = require('./../lib/recent').getRecentPosts;
-const getTopicBoards = require('./../lib/topic').getTopicBoards;
+import {getRecentPosts} from './../lib/recent';
+import {getTopicBoards} from './../lib/topic';
 
 describe('recent', () => {
     it('posts are retrieved successfully from sidebar', async () => {

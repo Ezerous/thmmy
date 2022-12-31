@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/Ezerous/thmmy.svg?branch=develop)](https://travis-ci.org/Ezerous/thmmy)
 [![Version](https://img.shields.io/npm/v/thmmy.svg)](https://www.npmjs.com/package/thmmy)
-[![Dependencies](https://img.shields.io/david/Ezerous/thmmy.svg)](https://david-dm.org/Ezerous/thmmy)
 [![License](https://img.shields.io/npm/l/thmmy.svg)](https://www.npmjs.com/package/thmmy)
 
 Utilities for thmmy.gr
